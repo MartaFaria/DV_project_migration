@@ -14,10 +14,10 @@ from plotly import tools
 
 ######################################################Data##############################################################
 
-#path = 'https://raw.githubusercontent.com/MartaFaria/DV_Project_Migration/master/'
+path = 'https://raw.githubusercontent.com/MartaFaria/DV_Project_Migration/master/'
 
-df = pd.read_excel('Migration_In_Out.xlsx')
-df_ind = pd.read_excel('Migration_Indicators.xlsx')
+df = pd.read_excel(path + 'Migration_In_Out.xlsx')
+df_ind = pd.read_excel(path + 'Migration_Indicators.xlsx')
 
 
 
