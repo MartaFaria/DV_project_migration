@@ -1,3 +1,4 @@
-# Deploying your Dash app online
+# Deploying Global Migration Patterns app online
 
-Enjoy at https://dashexample.herokuapp.com/
+Enjoy at https://dv-project-migration.herokuapp.com/
+
