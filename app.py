@@ -14,7 +14,7 @@ from plotly import tools
 
 ######################################################Data##############################################################
 
-path = 'https://raw.githubusercontent.com/MartaFaria/DV_project_migration/master/Datasets/'
+path = 'https://raw.githubusercontent.com/MartaFaria/DV_Project_Migration/master/Datasets/'
 
 df = pd.read_excel(path + 'Migration_In_Out.xlsx')
 df_ind = pd.read_excel(path + 'Migration_Indicators.xlsx')
