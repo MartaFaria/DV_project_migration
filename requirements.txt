@@ -45,7 +45,7 @@ pandas
 pandocfilters
 parso
 pickleshare
-plotly
+plotly==4.6.0
 prometheus-client
 prompt-toolkit
 Pygments
