@@ -568,7 +568,7 @@ def update_graph(countries, year):
                                   tickfont=dict(family="sans-serif", size=12, color='#111')),
                        yaxis=dict(title=dict(text="Stability index (-2.5 weak; 2.5 strong)", font={"size": 13, 'family':'sans-serif', 'color': '#111'}),
                                   gridcolor="LightGrey",
-                                  range=[-2.5, 2.5],
+                                  range=[-3.5, 2.5],
                                   tickfont=dict(family="sans-serif", size=12, color='#111'),
                                   ),
                        paper_bgcolor="#ffffff",
