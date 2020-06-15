@@ -458,6 +458,7 @@ def update_graph(countries, year):
             y=df_bar['Deaths - Conflict and terrorism'],
             orientation="v",
             showlegend=False,
+            name='',
             marker=dict(
                 color='rgb(239,225,156)',
                 line=dict(
@@ -470,6 +471,7 @@ def update_graph(countries, year):
             x=dff_avg['Year'],
             y=dff_avg['Deaths - Conflict and terrorism'],
             showlegend=False,
+            name='',
             mode='lines',
             line=dict(color="#000000", width=2)
     )]
@@ -496,6 +498,7 @@ def update_graph(countries, year):
         y=df_bar['GDP per capita'],
         orientation="v",
         showlegend=False,
+        name='',
         marker=dict(
             color='rgb(239,225,156)',
             line=dict(
@@ -508,6 +511,7 @@ def update_graph(countries, year):
             x=dff_avg['Year'],
             y=dff_avg['GDP per capita'],
             showlegend=False,
+            name='',
             mode='lines',
             line=dict(color="#000000", width=2)
         )
@@ -535,6 +539,7 @@ def update_graph(countries, year):
         y=df_bar['Political stability index (-2.5 weak; 2.5 strong)'],
         orientation="v",
         showlegend=False,
+        name='',
         marker=dict(
             color='rgb(239,225,156)',
             line=dict(
@@ -547,6 +552,7 @@ def update_graph(countries, year):
             x=dff_avg['Year'],
             y=dff_avg['Political stability index (-2.5 weak; 2.5 strong)'],
             showlegend=False,
+            name='',
             mode='lines',
             line=dict(color="#000000", width=2)
         )
@@ -575,6 +581,7 @@ def update_graph(countries, year):
         y=df_bar['Health spending per capita'],
         orientation="v",
         showlegend=False,
+        name='',
         marker=dict(
             color='rgb(239,225,156)',
             line=dict(
